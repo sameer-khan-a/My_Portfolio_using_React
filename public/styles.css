@@ -1,0 +1,199 @@
+span {
+}
+h2 {
+  text-decoration: none;
+}
+.home > h1 {
+  font-family: cursive;
+  font-size: 80px;
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.home {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: orchid;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px 0px 150px 0px;
+  width: 100vh;
+}
+.portfolio-home {
+  background: url("back.avif");
+  background-size: cover;
+}
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav-list {
+  justify-content: end;
+}
+.navbar {
+  justify-content: space-around;
+}
+.brand {
+  font-weight: bolder;
+}
+.hero {
+  color: white;
+  background: url("back.avif");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: safe;
+  text-align: left;
+  height: 89vh;
+  width: 100vh;
+}
+.hero-content {
+  margin-top: auto;
+}
+.hero h1 {
+  font-weight: lighter;
+}
+.container {
+  width: 100vh;
+}
+.hero div > img {
+  border-radius: 50%;
+  margin-top: 150px;
+  margin-right: auto;
+}
+.hero div > p {
+  text-align: left;
+}
+.color {
+  color: orchid;
+  font-style: italic;
+}
+.hero div > h2 {
+  color: white;
+}
+.card {
+  border-radius: 30%;
+  transition: transform 0.2s ease;
+}
+.projects {
+  color: white;
+  background: url("back.avif");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 100vh;
+  align-items: center;
+}
+.skills {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 30px;
+}
+.skill1,
+.project1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.skill2,
+.project2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.skill3,
+.project3 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.card-body {
+  background-color: darkorchid;
+}
+.card-title {
+  color: darkorchid;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card:hover .card-body {
+  background-color: purple;
+}
+.card:hover .card-img-top {
+  transform: matrix3d(1.5);
+}
+.card:hover .card-title {
+  color: white;
+}
+.hide {
+  display: none;
+}
+.card:hover .hide {
+  display: flex;
+}
+
+.skills img {
+  border-radius: 0%;
+  max-height: 200px;
+  max-width: 400px;
+}
+.skills > h2 {
+  color: #344cb7;
+}
+.contact {
+  background-color: #fcc6ff;
+  border-radius: 150px 0px 150px 0px;
+  border: #344cb7 10px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vh;
+}
+.contact-title {
+  word-spacing: 10px;
+  color: #344cb7;
+}
+center h4 {
+  color: #344cb7;
+}
+h5 {
+  display: flex;
+}
+.nav > div > h5 > li > a {
+  color: hotpink;
+}
+footer > p {
+  color: whitesmoke;
+}
+.footer-content {
+  justify-content: space-between;
+  width: 100rm;
+  gap: auto;
+}
+footer {
+  background-color: darkorchid;
+  border-radius: 50px 50px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  flex-direction: column;
+  display: flex;
+}
