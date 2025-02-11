@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./Home";
-import Hero from "./Hero";
-import Projects from "./Projects";
-import Certifications from "./Courses";
-import Resume from "./Resume";
+import Home from "./Home.jsx";
+import Hero from "./Hero.jsx";
+import Projects from "./Projects.jsx";
+import Certifications from "./Courses.jsx";
+import Resume from "./Resume.jsx";
 import {
   BrowserRouter as Router,
   Route,
