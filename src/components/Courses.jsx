@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Card from "./card";
-import Footer from "./Footer";
+import Navbar from "./Navbar.jsx";
+import Card from "./card.jsx";
+import Footer from "./Footer.jsx";
 function Certifications(props) {
   return (
     <div className="projects ">
