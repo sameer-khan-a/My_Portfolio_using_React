@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.jsx";
+import Navbar from "./Navbar.jsx";
 function Hero() {
   return (
     <>
