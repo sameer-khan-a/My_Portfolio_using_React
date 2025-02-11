@@ -1,7 +1,7 @@
 import React from "react";
 import Type from "./Type";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 function Home() {
   return (
     <div
