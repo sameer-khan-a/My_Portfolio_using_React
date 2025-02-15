@@ -96,6 +96,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: start;
+  gap: 30px;
 }
 .skill1,
 .project1 {
@@ -103,6 +104,8 @@ h2 {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 .skill2,
 .project2 {
@@ -110,7 +113,8 @@ h2 {
   gap: 20px;
   justify-content: center;
   align-items: center;
-
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .skill3,
 .project3 {
@@ -118,7 +122,8 @@ h2 {
   gap: 20px;
   justify-content: center;
   align-items: center;
-
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .card-body {
   background-color: darkorchid;
