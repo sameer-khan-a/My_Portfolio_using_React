@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A React project optimized for fast rendering",
   "keywords": ["react", "vite", "fast"],
-  "main": "src/index.jsx",
+  "main": "src/index.js",
   "type": "module",
   "dependencies": {
     "react": "^18.2.0",
