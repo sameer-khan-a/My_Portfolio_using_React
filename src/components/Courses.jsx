@@ -9,7 +9,7 @@ function Certifications(props) {
       <h2 class="display-5 fw-normal" style={{ color: "orchid" }}>
         My Certifications
       </h2>
-      <div class="row skills row-cols-4 row-cols-md-4 mb-3 text-center container-fluid ">
+      <div class="row skills row-cols-4 row-cols-md-2 mb-3 text-center container-fluid ">
         <Card
           title="Web Development Bootcamp by App Brewery - 2025"
           content="A comprehensive bootcamp covering essential web development skills.
