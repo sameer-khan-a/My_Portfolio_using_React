@@ -5,7 +5,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: ['my-portfolio-using-react-ga3a.onrender.com'],
     port: 3000
   },
   build: {
