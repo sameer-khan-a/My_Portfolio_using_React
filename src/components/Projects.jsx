@@ -9,7 +9,7 @@ function Projects(props) {
       <h2 class="display-5 fw-normal" style={{ color: "orchid" }}>
         My Projects
       </h2>
-      <div class="row skills row-cols-1 row-cols-lg-4 mb-3 text-center">
+      <div class="row row-cols-1 row-cols-lg-4 mb-3 text-center">
         <div class="col-4">
           <Card
             title="Book Basket - 2024"
