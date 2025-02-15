@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar-section container-fluid">
-      <nav className="navbar navbar-dark bg-dark bg-body-tertiary-transparent d-flex justify-content-around align-items-center container-fluid">
+      <nav className="navbar navbar-dark navbar-expand  bg-body-tertiary-transparent d-flex justify-content-around align-items-center container-fluid">
         <div className="container-fluid mx-5">
           <a
             className="navbar-brand fs-3 brand"
