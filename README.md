@@ -17,10 +17,10 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 ![Character Profile](public/page2.png)
 
 ### Courses
-![Search Page](public/Courses.png)
+![Search Page](public/page4.png)
 
 ### Certfications 
-![Search Page](public/Certfications.png)
+![Search Page](public/page5.png)
 
 ### Resume Page
 ![Search Page](public/page3.png)
