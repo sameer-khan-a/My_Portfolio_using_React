@@ -11,13 +11,13 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## Screenshots
 ### Homepage
-![Homepage](public/homepage.png.png)
+![Homepage](public/homepage.png)
 
 ### About Me
-![Character Profile](public/About.png.png)
+![Character Profile](public/About.png)
 
 ### Courses
-![Search Page](public/Courses.png.png)
+![Search Page](public/Courses.png)
 
 ### Certfications 
 ![Search Page](public/Certfications.png.png)
