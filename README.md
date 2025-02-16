@@ -20,10 +20,10 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 ![Search Page](public/Courses.png)
 
 ### Certfications 
-![Search Page](public/Certfications.png.png)
+![Search Page](public/Certfications.png)
 
 ### Resume Page
-![Search Page](public/Resume.png.png)
+![Search Page](public/Resume.png)
 
 ## How to Run
 1. Clone the repository:
