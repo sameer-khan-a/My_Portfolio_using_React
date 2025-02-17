@@ -5,7 +5,8 @@ function Card(props) {
       <div
         class="card"
         style={{
-          height: "300px",
+          height: "500px",
+          width: "1250px",
           borderRadius: "30%",
           backgroundColor: "transparent",
           color: "white",
