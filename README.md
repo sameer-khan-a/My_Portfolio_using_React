@@ -11,19 +11,19 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## Screenshots
 ### Homepage
-![Homepage](public/images/homepage.png)
+![Homepage](public/page1.png)
 
 ### About Me
-![Character Profile](public/images/About.png)
+![Character Profile](public/page2.png)
 
-### Courses
-![Search Page](public/images/Courses.png)
+### Certfications  
+![Search Page](public/page4.png)
 
-### Certfications 
-![Search Page](public/images/Certfications.png)
+### Projects
+![Search Page](public/page5.png)
 
 ### Resume Page
-![Search Page](public/images/Resume.png)
+![Search Page](public/page3.png)
 
 ## How to Run
 1. Clone the repository:
