@@ -104,13 +104,7 @@ function Hero() {
             </div>
           </div>
           <div class="mx-auto d-flex flex-md-wrap">
-            <img
-              class=""
-              src="sameer.png"
-              alt="Image of Sameer"
-              width="200"
-              height="200"
-            ></img>
+     
           </div>
         </div>
         <Footer />
