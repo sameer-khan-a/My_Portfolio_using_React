@@ -16,8 +16,8 @@ function Hero() {
         <Navbar />
 
         <div className="container">
-          <div className="row min-vh-100 align-items-center">
-            <div className="col-12 text-center hero-content">
+          <div className="row min-vh-100 align-items-center justify-content-center">
+            <div className="col-12 text-center hero-content text-white">
 
               <h2 className="display-5 fw-normal mb-4">
                 LET ME <span className="color">INTRODUCE</span> MYSELF,
@@ -63,6 +63,7 @@ function Hero() {
                       href="https://www.linkedin.com/in/sameer-khan-a-/"
                       target="_blank"
                       rel="noreferrer"
+                      className="text-white"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -82,6 +83,7 @@ function Hero() {
                       href="https://github.com/sameer-khan-a"
                       target="_blank"
                       rel="noreferrer"
+                      className="text-white"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
