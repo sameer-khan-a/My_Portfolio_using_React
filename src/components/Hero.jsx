@@ -15,40 +15,45 @@ function Hero() {
       >
         <Navbar />
 
-        <div className="container">
-          <div className="row min-vh-100 align-items-center">
-            <div className="col-12 text-center hero-content">
+      <div className="container">
+  <div className="row min-vh-100 align-items-center justify-content-center">
+    <div className="col-12 text-center">
 
-              <h2 className="display-5 fw-normal mb-4">
-                LET ME <span className="color">INTRODUCE</span> MYSELF,
-              </h2>
+      <h2 className="display-5 fw-normal mb-4">
+        LET ME <span className="color">INTRODUCE</span> MYSELF,
+      </h2>
 
-              <div className="mx-auto" style={{ maxWidth: "700px" }}>
-                <p className="lead fw-normal about-me">
-                  I am an aspiring Full Stack Developer with a strong passion for
-                  <span className="color"> web development 💻</span>.
-                </p>
+      <div className="mx-auto" style={{ maxWidth: "700px" }}>
+        <p className="lead fw-normal about-me">
+          I am an aspiring Full Stack Developer with a strong passion for
+          <span className="color"> web development 💻</span>.
+        </p>
 
-                <p className="lead fw-normal about-me">
-                  I build{" "}
-                  <span className="color">
-                    dynamic and high-performing web applications
-                  </span>{" "}
-                  while optimizing workflows through problem-solving and teamwork.
-                </p>
+        <p className="lead fw-normal about-me">
+          I build{" "}
+          <span className="color">
+            dynamic and high-performing web applications
+          </span>{" "}
+          while optimizing workflows through problem-solving and teamwork.
+        </p>
 
-                <p className="lead fw-normal about-me">
-                  I have solid knowledge of{" "}
-                  <span className="color">
-                    C, C++, Java, Python, DSA, and Networking
-                  </span>.
-                </p>
+        <p className="lead fw-normal about-me">
+          I have solid knowledge of{" "}
+          <span className="color">
+            C, C++, Java, Python, DSA, and Networking
+          </span>.
+        </p>
 
-                <p className="lead fw-normal about-me">
-                  I’m eager to grow in environments where I can apply my{" "}
-                  <span className="color">technical and soft skills</span>.
-                </p>
-              </div>
+        <p className="lead fw-normal about-me">
+          I’m eager to grow in environments where I can apply my{" "}
+          <span className="color">technical and soft skills</span>.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
               {/* Socials */}
               <div className="mt-5">
