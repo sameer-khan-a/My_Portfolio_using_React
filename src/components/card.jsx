@@ -1,70 +1,37 @@
 import React from "react";
-function Card(props) {
-  return (
-    <div class="card-group container" style={{ borderRadius: "30%" }}>
-      <div
-        class="card"
-        style={{
-          height: "500px",
-          width: "1250px",
-          borderRadius: "30%",
-          backgroundColor: "transparent",
-          color: "white",
-        }}
-      >
-        <img
-          src={props.img}
-          class="card-img-top"
-          alt="..."
-          style={{ borderRadius: "50px 50px 0 0" }}
-        />
-        <div
-          class="card-body"
-          style={{
-            borderRadius: "0 0 50px 50px",
-          }}
-        >
-          <h5 class="card-title">
-            {props.title}{" "}
-            <p class="card-text hide">
-              <a
-                target="_blank"
-                className="mx-5 link"
-                href={props.git}
-                style={{
-                  color: "lightblue",
-                  textDecoration: "none",
 
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-box-arrow-up-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
-                  />
-                </svg>
-                <h6>{props.linkname}</h6>
-              </a>
-            </p>
-          </h5>
-          <p class="card-text">{props.content}</p>
-        </div>
+function Card({ title, content, img, git, linkname }) {
+  return (
+    <div className="card custom-card h-100 text-white">
+      <img src={img} className="card-img-top custom-card-img" alt={title} />
+
+      <div className="card-body d-flex flex-column">
+        <h5 className="card-title mb-2">{title}</h5>
+
+        <p className="card-text flex-grow-1">{content}</p>
+
+        <a
+          href={git}
+          target="_blank"
+          rel="noreferrer"
+          className="card-link mt-3 align-self-start"
+        >
+          {linkname}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            fill="currentColor"
+            className="ms-2"
+            viewBox="0 0 16 16"
+          >
+            <path d="M6.354 5.5H2.5A1.5 1.5 0 0 0 1 7v6A1.5 1.5 0 0 0 2.5 14h6A1.5 1.5 0 0 0 10 12.5V8.646" />
+            <path d="M11 1.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L3.146 8.146a.5.5 0 1 0 .708.708L10 2.707V6.5a.5.5 0 0 0 1 0z" />
+          </svg>
+        </a>
       </div>
     </div>
   );
 }
+
 export default Card;
